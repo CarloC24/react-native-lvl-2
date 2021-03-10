@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "react_native_lvl_2",
+    "slug": "react_native_lvl_2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./App/assets/portraits/icon.png",
+    "splash": {
+      "image": "./App/assets/portraits/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./App/assets/portraits/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./App/assets/portraits/favicon.png"
+    },
+    "entryPoint":"./App/App.tsx"
+  }
+}
