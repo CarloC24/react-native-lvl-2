@@ -3,24 +3,16 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import CurrentListView from "./screens/CurrentListView";
+// Added this so uuid can work
+import 'react-native-get-random-values';
 
-function App() {
+
+function App():JSX.Element {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!!</Text>
-      <StatusBar style="auto" />
-    </View>
+
+      <CurrentListView />
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-
 
 export default registerRootComponent(App);

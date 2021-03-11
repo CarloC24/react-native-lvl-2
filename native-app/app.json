@@ -4,9 +4,9 @@
     "slug": "my-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./App/icons/icon.png",
+    "icon": "./App/assets/icons/icon.png",
     "splash": {
-      "image": "./App/icons/splash.png",
+      "image": "./App/assets/icons/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,12 +21,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./App/icons/adaptive-icon.png",
+        "foregroundImage": "./App/assets/icons/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
-      "favicon": "./App/icons/favicon.png"
+      "favicon": "./App/assets/icons/favicon.png"
     },
     "entryPoint":"./App/index.tsx"
   }
